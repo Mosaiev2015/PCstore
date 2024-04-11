@@ -1,6 +1,6 @@
 version: 1.0.{build}
 services:
-- localdb
+- mssql2016
 before_deploy:
 - PowerShell .\InstallSelfSignedCert.ps1
 before_build:
